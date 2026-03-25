@@ -111,12 +111,12 @@ const Home = () => (
         Proyecto de Investigación 2026
       </motion.div>
       <h1 className="text-6xl md:text-8xl font-bold leading-[0.9] tracking-tighter">
-        Sistemas Visuales <br />
-        <span className="text-neutral-300">en la Era</span> <br />
-        Generativa.
+        Sistema de Diseño <br />
+        <span className="text-neutral-300">para la movilidad </span> <br />
+        estudiantil en Tunja.
       </h1>
       <p className="text-lg md:text-xl text-neutral-500 max-w-md leading-relaxed font-light">
-        Exploración sobre la intersección entre el diseño paramétrico y la inteligencia artificial como herramientas de co-creación en la identidad visual contemporánea.
+        Este proyecto busca explorar cómo el diseño gráfico puede contribuir a mejorar la experiencia de movilidad de estudiantes foráneos en Tunja. A partir del análisis del sistema actual de transporte público, se plantea una investigación enfocada en la comprensión de la información, la orientación en el espacio urbano y la relación entre señalización y herramientas digitales.
       </p>
       <div className="flex items-center space-x-4">
         <button className="px-8 py-4 bg-neutral-900 text-white text-xs uppercase tracking-widest font-bold hover:bg-accent transition-colors duration-300 flex items-center group">
@@ -159,8 +159,8 @@ const About = () => (
         </div>
         <div className="space-y-2">
           <h3 className="text-xs uppercase tracking-[0.3em] font-bold text-neutral-400">Contacto</h3>
-          <p className="text-sm font-medium">hola@estudiante.design</p>
-          <p className="text-sm font-medium">@estudiante_design</p>
+          <p className="text-sm font-medium">sebavila@uniboyaca.edu.co</p>
+          <p className="text-sm font-medium">@Sarboxz</p>
         </div>
       </div>
       
@@ -172,24 +172,24 @@ const About = () => (
         
         <div className="space-y-6 text-neutral-600 leading-relaxed text-lg font-light">
           <p>
-            Actualmente curso el último año de la Licenciatura en Diseño Gráfico. Mi práctica se centra en la búsqueda de nuevas narrativas visuales a través de la experimentación tecnológica y el pensamiento crítico.
+            Desde hace tiempo me ha llamado la atención esta problematica para desarrollarla como proyecto de grado, asi que usaré la clase de seminario para estructurar las bases del proyecto de investigación.
           </p>
           <p>
-            Me apasiona cómo el diseño puede actuar como un puente entre la complejidad técnica y la experiencia humana. Mis intereses principales incluyen la tipografía experimental, el diseño de interfaces y la teoría de la imagen.
+            Me apasiona cómo el diseño puede actuar como un puente entre la complejidad técnica y la experiencia humana. Mis intereses principales son el motion graphics, el diseño de interfaces y la comunicacion acertiva a partir de estos.
           </p>
           <p>
-            Esta bitácora es el registro vivo de mi proceso de investigación, un espacio donde las ideas convergen y se transforman en propuestas visuales con propósito.
+            Esta bitácora es el registro vivo de mi proceso de investigación, un espacio donde las ideas convergen para reflexionar, proponer y tal vez crear en un futuro.
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-8 pt-8 border-t border-neutral-100">
           <div className="space-y-2">
             <h4 className="text-[10px] uppercase tracking-widest font-bold text-neutral-400">Enfoque</h4>
-            <p className="text-sm">Diseño Editorial & Digital</p>
+            <p className="text-sm">Edicion & Motion graphics</p>
           </div>
           <div className="space-y-2">
             <h4 className="text-[10px] uppercase tracking-widest font-bold text-neutral-400">Ubicación</h4>
-            <p className="text-sm">Ciudad de Diseño, 2026</p>
+            <p className="text-sm">Tunja, 2026</p>
           </div>
         </div>
       </div>
@@ -206,9 +206,9 @@ const ResearchIdea = () => (
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {[
-        { title: 'Tema', content: 'La Inteligencia Artificial Generativa en el proceso creativo del diseño gráfico.', icon: '01' },
-        { title: 'Problema', content: '¿Cómo afecta la automatización de la estética a la originalidad y el rol del diseñador?', icon: '02' },
-        { title: 'Contexto', content: 'Estudios de diseño contemporáneos y plataformas de creación digital masiva.', icon: '03' },
+        { title: 'Tema', content: 'Sistemas de orientación y señalética urbana aplicados a la movilidad estudiantil.', icon: '01' },
+        { title: 'Problema', content: '¿Cómo mitigar la desorientación de estudiantes foráneos en el sistema de transporte de Tunja?', icon: '02' },
+        { title: 'Contexto', content: 'El sistema de transporte público colectivo y las principales rutas universitarias de la ciudad.', icon: '03' },
       ].map((item, idx) => (
         <div key={item.title} className="p-10 bg-neutral-50 border border-neutral-100 space-y-6 relative overflow-hidden group hover:border-accent transition-colors duration-500">
           <span className="text-8xl font-bold text-neutral-100 absolute -top-4 -right-4 group-hover:text-accent/5 transition-colors">
@@ -227,11 +227,11 @@ const ResearchIdea = () => (
         <div className="space-y-4">
           <h3 className="text-2xl font-bold">Propuesta de Título</h3>
           <p className="text-xl italic text-neutral-600 font-light leading-relaxed">
-            "Algoritmos de la Creatividad: Un análisis crítico sobre la co-autoría entre humanos y máquinas en la identidad visual."
+            "Diseño de un sistema de Diseño para la mejora de la movilidad estudiantil en la ciudad de Tunja."
           </p>
         </div>
         <p className="text-neutral-500 leading-relaxed font-light">
-          La investigación busca desglosar los mecanismos de producción visual actuales, identificando puntos de fricción y oportunidad donde el diseñador deja de ser un ejecutor para convertirse en un curador de sistemas.
+          La investigación busca analizar las deficiencias en la comunicación visual del transporte actual y proponer una solución que integre señalética física y soportes digitales para facilitar el desplazamiento de los estudiantes.
         </p>
       </div>
       <div className="aspect-video bg-neutral-100 flex items-center justify-center border border-dashed border-neutral-300 relative group">
@@ -270,14 +270,14 @@ const PreliminaryInquiry = () => (
     <article className="prose prose-neutral max-w-none space-y-12">
       <div className="space-y-6">
         <p className="text-xl text-neutral-600 leading-relaxed font-light">
-          La primera fase de esta bitácora se centra en el mapeo de referentes y la identificación de las corrientes estéticas dominantes en el diseño asistido por algoritmos. Se han seleccionado tres ejes fundamentales de análisis.
+          La primera fase de esta bitácora se centra en el análisis del entorno urbano de Tunja y la identificación de los puntos críticos de desorientación en las rutas de transporte más utilizadas por la comunidad universitaria.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="aspect-square bg-neutral-100 overflow-hidden">
           <img
-            src="https://picsum.photos/seed/inquiry1/800/800"
+            src="https://picsum.photos/seed/tunja-mobility1/800/800"
             alt="Exploration 1"
             className="w-full h-full object-cover grayscale hover:scale-105 transition-transform duration-700"
             referrerPolicy="no-referrer"
@@ -285,7 +285,7 @@ const PreliminaryInquiry = () => (
         </div>
         <div className="aspect-square bg-neutral-100 overflow-hidden">
           <img
-            src="https://picsum.photos/seed/inquiry2/800/800"
+            src="https://picsum.photos/seed/tunja-mobility2/800/800"
             alt="Exploration 2"
             className="w-full h-full object-cover grayscale hover:scale-105 transition-transform duration-700"
             referrerPolicy="no-referrer"
@@ -297,9 +297,9 @@ const PreliminaryInquiry = () => (
         <h3 className="text-2xl font-bold tracking-tight">Puntos Clave de la Exploración</h3>
         <ul className="space-y-6 list-none p-0">
           {[
-            { title: 'Despersonalización de la Estética', desc: 'Análisis de cómo los modelos de difusión tienden a homogeneizar los resultados visuales basados en promedios estadísticos.' },
-            { title: 'Nuevas Herramientas de Control', desc: 'Evaluación de interfaces como Midjourney, Stable Diffusion y herramientas paramétricas en Figma/Adobe.' },
-            { title: 'El Rol de la Curaduría', desc: 'El diseñador como filtro crítico ante la sobreproducción de imágenes generativas.' },
+            { title: 'Legibilidad del Sistema Actual', desc: 'Evaluación de la señalética existente en paraderos y vehículos, identificando vacíos de información.' },
+            { title: 'Necesidades del Estudiante Foráneo', desc: 'Mapeo de recorridos habituales y obstáculos cognitivos durante el desplazamiento urbano.' },
+            { title: 'Integración Digital', desc: 'Estudio de la viabilidad de herramientas de apoyo en tiempo real para la orientación universitaria.' },
           ].map((item) => (
             <li key={item.title} className="flex items-start space-x-6 group">
               <div className="mt-2 w-2 h-2 bg-accent rounded-full group-hover:scale-150 transition-transform" />
@@ -315,16 +315,16 @@ const PreliminaryInquiry = () => (
       <div className="p-12 bg-neutral-900 text-white space-y-6">
         <h3 className="text-2xl font-bold text-white">Reflexión de Taller</h3>
         <p className="font-light italic opacity-80 leading-relaxed">
-          "No se trata de si la máquina puede diseñar, sino de cómo el diseño se redefine cuando la ejecución es instantánea. El valor se desplaza de la técnica a la intención y la estructura conceptual."
+          "La movilidad no es solo el acto de desplazarse, sino la capacidad de comprender el entorno para habitarlo. El diseño gráfico es la herramienta que transforma el caos urbano en una red de significados accesibles."
         </p>
       </div>
 
       <div className="space-y-8">
         <p className="text-neutral-600 leading-relaxed font-light">
-          A continuación se presentan los primeros bocetos de diagramación y las pruebas de prompts iniciales que servirán como base para el desarrollo del marco teórico. Este contenido es dinámico y se actualizará conforme avance la investigación.
+          Se han realizado los primeros levantamientos fotográficos y encuestas preliminares a estudiantes de primer semestre. Los resultados indican una fuerte dependencia de la comunicación verbal directa ante la ausencia de un sistema visual coherente.
         </p>
         <div className="aspect-video bg-neutral-100 border border-neutral-200 flex items-center justify-center">
-           <span className="text-[10px] uppercase tracking-widest font-bold text-neutral-400">Espacio para Galería de Exploración Visual</span>
+           <span className="text-[10px] uppercase tracking-widest font-bold text-neutral-400">Espacio para Mapas de Empatía y Recorridos</span>
         </div>
       </div>
     </article>
@@ -387,7 +387,7 @@ export default function App() {
 
       <div className="fixed bottom-8 right-8 z-40 hidden md:block">
         <div className="text-[10px] uppercase tracking-[0.3em] font-bold text-neutral-300">
-          Vol. 01 / AI & Visual Systems
+          Vol. 01 / Movilidad Estudiantil Tunja
         </div>
       </div>
     </div>
