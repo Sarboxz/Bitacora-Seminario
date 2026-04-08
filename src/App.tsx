@@ -166,7 +166,7 @@ const About = () => (
       
       <div className="md:col-span-7 space-y-12">
         <div className="space-y-4">
-          <h2 className="text-5xl font-bold tracking-tight">Nombre del Estudiante</h2>
+          <h2 className="text-5xl font-bold tracking-tight">Sebastian Ávila Rodríguez</h2>
           <div className="h-1 w-20 bg-accent" />
         </div>
         
@@ -206,7 +206,7 @@ const ResearchIdea = () => (
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {[
-        { title: 'Tema', content: 'Sistemas de orientación y señalética urbana aplicados a la movilidad estudiantil.', icon: '01' },
+        { title: 'Tema', content: 'Sistemas de diseño y señalética urbana aplicados a la movilidad estudiantil.', icon: '01' },
         { title: 'Problema', content: '¿Cómo mitigar la desorientación de estudiantes foráneos en el sistema de transporte de Tunja?', icon: '02' },
         { title: 'Contexto', content: 'El sistema de transporte público colectivo y las principales rutas universitarias de la ciudad.', icon: '03' },
       ].map((item, idx) => (
